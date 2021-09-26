@@ -1,0 +1,51 @@
+.container_user {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.container_user p {
+  width: 100%;
+  margin: 10px 0;
+  display: flex;
+  justify-content: flex-start;
+}
+h1,
+h4 {
+  text-transform: uppercase;
+}
+.btn_delete {
+  height: 35px;
+  width: 95px;
+  border: none;
+  border-radius: 10px;
+  background-color: blue;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 18px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+.add_tecnology input {
+  height: 30px;
+  margin-bottom: 15px;
+  width: 150px;
+  border-radius: 10px;
+  padding: 0 10px;
+  border: none;
+}
+.add_tecnology select {
+  width: 120px;
+}
+.btn_addTecnology {
+  height: 35px;
+  width: 115px;
+  border: none;
+  border-radius: 10px;
+  background-color: blue;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 18px;
+  cursor: pointer;
+}

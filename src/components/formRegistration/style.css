@@ -1,0 +1,37 @@
+.container_registration{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+.container_registration h1{
+    text-transform: uppercase;
+}
+.container_registration input, select{
+    height: 30px;
+    margin-bottom: 15px;
+    width: 250px;
+    border-radius: 10px;
+    padding: 0 10px;
+    border: none;
+}
+.container_registration select{
+    width: 275px;
+}
+.btn_registration{
+    height: 35px;
+    width: 135px;
+    border: none;
+    border-radius: 10px;
+    background-color: blue;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+}
+form div p{
+    margin: 0;
+}
